@@ -3,12 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pepsi Darrus - Sosyal Medya ve İletişim</title>
+    <title>Pepsi Darrus Linkleri</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <style>
         body {
-            font-family: 'Segoe UI', sans-serif;
-            background: linear-gradient(135deg, #0f172a, #1e293b);
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #1e293b, #0f172a);
             color: white;
             margin: 0;
             display: flex;
@@ -18,20 +18,21 @@
             padding: 40px 20px;
         }
         .profile-img {
-            width: 120px;
-            height: 120px;
+            width: 130px;
+            height: 130px;
             border-radius: 50%;
             border: 3px solid #2ea043;
             margin-bottom: 15px;
             object-fit: cover;
         }
-        h1 { font-size: 24px; margin-bottom: 5px; }
-        .links { width: 100%; max-width: 400px; margin-top: 20px; }
+        h1 { font-size: 26px; margin-bottom: 5px; }
+        p { color: #94a3b8; margin-bottom: 30px; }
+        .links { width: 100%; max-width: 400px; }
         .link-card {
             background: #1e293b;
             border: 1px solid #334155;
             padding: 15px;
-            margin-bottom: 12px;
+            margin-bottom: 15px;
             border-radius: 12px;
             text-decoration: none;
             color: white;
@@ -41,68 +42,35 @@
             font-weight: 600;
             transition: 0.3s;
         }
-        .link-card:hover { border-color: #2ea043; transform: scale(1.02); }
+        .link-card:hover {
+            background: #334155;
+            transform: translateY(-3px);
+            border-color: #2ea043;
+        }
         .link-card i { margin-right: 10px; font-size: 20px; }
-        
-        /* Sohbet/Mesaj Kutusu Alanı */
-        .message-box {
-            margin-top: 30px;
-            background: rgba(255, 255, 255, 0.05);
-            padding: 20px;
-            border-radius: 15px;
-            width: 100%;
-            max-width: 400px;
-            border: 1px dashed #444;
-        }
-        input, textarea {
-            width: 100%;
-            padding: 10px;
-            margin-top: 10px;
-            border-radius: 8px;
-            border: none;
-            background: #0f172a;
-            color: white;
-            box-sizing: border-box;
-        }
-        button {
-            width: 100%;
-            background: #2ea043;
-            color: white;
-            border: none;
-            padding: 12px;
-            margin-top: 15px;
-            border-radius: 8px;
-            font-weight: bold;
-            cursor: pointer;
-        }
     </style>
 </head>
 <body>
 
     <img src="Screenshot_20260503-023347.jpg" alt="Profil" class="profile-img">
+    
     <h1>Pepsi Darrus</h1>
-    <p>Buralardan bana ulaşabilirsin 👇</p>
+    <p>Resmi Sosyal Medya Hesaplarım</p>
 
     <div class="links">
         <a href="https://www.instagram.com/pepsidarrus1?igsh=dWZ3N2Z1N3phMHoy" target="_blank" class="link-card">
-            <i class="fab fa-instagram" style="color: #E1306C;"></i> Instagram
+            <i class="fab fa-instagram" style="color: #E1306C;"></i> Instagram'dan Takip Et
         </a>
+        
         <a href="https://youtube.com/@pepsidarrus?si=kxT2GlTo0ZKhTdnv" target="_blank" class="link-card">
-            <i class="fab fa-youtube" style="color: #FF0000;"></i> YouTube
+            <i class="fab fa-youtube" style="color: #FF0000;"></i> YouTube Kanalıma Abone Ol
         </a>
-    </div>
 
-    <div class="message-box">
-        <h3 style="margin-top: 0; text-align: center;">Bana Özel Mesaj At</h3>
-        <form action="https://formspree.io/f/XXXXX" method="POST">
-            <input type="text" name="name" placeholder="Adın veya Nickin" required>
-            <textarea name="message" placeholder="Mesajını buraya yaz..." required></textarea>
-            <button type="submit">Mesajı Gönder</button>
-        </form>
-        <p style="font-size: 12px; color: #666; text-align: center; margin-top: 10px;">
-            Not: Mesajlar bana e-posta olarak düşecektir.
-        </p>
+        <a href="mailto:iletisim@adresin.com" class="link-card">
+            <i class="fas fa-envelope"></i> Bana Ulaşın
+        </a>
     </div>
 
 </body>
+</html>
 </html>
